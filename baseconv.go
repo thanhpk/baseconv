@@ -102,16 +102,16 @@ const (
 	DigitsDec = "0123456789"
 
 	// DigitsHex represents hex digits
-	DigitsHex = "0123456789abcdef"
+	DigitsHex = "0123456789ABCDEF"
 
 	// Digits36 represents base36 digits
-	Digits36 = "0123456789abcdefghijklmnopqrstuvwxyz"
+	Digits36 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 	// Digits62 represents base62 digits
-	Digits62 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	Digits62 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
 
 	// Digits64 represents base64 digits
-	Digits64 = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_"
+	Digits64 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
 )
 
 // EncodeBin encodes a string into DigitsBin with optional specified base (default: DigitsDec).

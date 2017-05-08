@@ -36,7 +36,7 @@ import (
 )
 
 func main() {
-    valHex := "70b1d707eac2edf4c6389f440c7294b51fff57bb"
+    valHex := "70B1D707EAC2EDF4C6389F440C7294B51FFF57BB"
     valDec, _ := baseconv.DecodeHex(valHex)
     val62, _ := baseconv.Convert(valHex, baseconv.DigitsHex, baseconv.Digits62)
     val36, _ := baseconv.Encode36(val62, baseconv.Digits62)
@@ -54,7 +54,7 @@ Example output:
 ```sh
 $ go run example.go
 dec string: 643372930067913326838082478477533553256088688571
-62 string:  g4WuOGCMWgcPa70d91BezVvvvaX
-36 string:  d5wjfaew7fypqn2ka6xpofdlwns9ha3
+62 string:  G4wUogcmwGCpA70D91bEZvVVVAx
+36 string:  D5WJFAEW7FYPQN2KA6XPOFDLWNS9HA3
 dec and 36 values same: true
 ```
