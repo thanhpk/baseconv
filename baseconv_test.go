@@ -82,6 +82,7 @@ func TestConvert(t *testing.T) {
 		{DigitsHex, DigitsJapanese, "2710", "一〇〇〇〇"},
 		{DigitsHex, DigitsThai, "2710", "๑๐๐๐๐"},
 		{DigitsHex, "0一23456789", "2710", "一0000"},
+		{ASCII, Digits62, "7n42-&DG$M5Tf@ lk 9n':8mt\\7Fh[c7", "tbWhtdOcCFBgQuGmYPp3uTZzvMSWkZkUI99"},
 	}
 
 	for i, test := range tests {

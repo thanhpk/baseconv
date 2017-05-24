@@ -112,6 +112,9 @@ const (
 
 	// Digits64 represents base64 digits
 	Digits64 = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
+
+	// ASCII represents all ascii printable characters
+	ASCII = " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~"
 )
 
 // EncodeBin encodes a string into DigitsBin with optional specified base (default: DigitsDec).
