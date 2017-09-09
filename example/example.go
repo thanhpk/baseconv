@@ -20,5 +20,6 @@ func main() {
 	fmt.Printf("dec and 36 values same: %t\n", valDec == conVal36)
 
 	val62, _ = baseconv.Convert("7(n42-&DG$MT", baseconv.ASCII, baseconv.Digits62)
-	fmt.Println("62 string: " + val62)
+	str, _ := baseconv.Convert(val62, baseconv.Digits62, baseconv.ASCII)
+	fmt.Println("62 string: " + val62 + " str: " + str)
 }
