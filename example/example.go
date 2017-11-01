@@ -13,7 +13,7 @@ func main() {
 	val36, _ := baseconv.Encode36(val62, baseconv.Digits62)
 
 	fmt.Println("dec string: " + valDec)
-	fmt.Printf("62 string: " + val62)
+	fmt.Println("62 string: " + val62)
 	fmt.Println("36 string: " + val36)
 
 	conVal36, _ := baseconv.Decode36(val36, baseconv.DigitsDec)
